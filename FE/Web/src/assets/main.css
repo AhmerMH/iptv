@@ -1,0 +1,33 @@
+@import './base.css';
+
+:root {
+  --bg: linear-gradient(120deg, #fdfbfb 0%, #b8ddef 100%);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --text: #1a237e;
+  --input-bg: white;
+  --input-border: #e0e0e0;
+  --button-gradient: linear-gradient(45deg, #2196f3, #1976d2);
+  --border-color: #e2e8f0;
+  --sidebar-bg: #ffffff;
+  --hover-bg: #f8fafc;
+  --active-bg: #e2e8f0;
+  --avatar-bg: #e2e8f0;
+  --secondary-text: #64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: linear-gradient(120deg, #2c3e50 0%, #3498db 100%);
+    --card-bg: rgba(30, 41, 59, 0.95);
+    --text: #e0e0e0;
+    --input-bg: #1e293b;
+    --input-border: #475569;
+    --button-gradient: linear-gradient(45deg, #3b82f6, #2563eb);
+    --border-color: #334155;
+    --sidebar-bg: #1e293b;
+    --hover-bg: #334155;
+    --active-bg: #475569;
+    --avatar-bg: #475569;
+    --secondary-text: #94a3b8;
+  }
+}
